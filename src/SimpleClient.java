@@ -26,6 +26,7 @@ public class SimpleClient {
         ) {
             String userInput = stdIn.readLine();
             long startTime = System.nanoTime(); // Start timer
+            out.println(userInput);
             System.out.println(in.readLine());
             long endTime = System.nanoTime(); // Stop timer
             long duration = (endTime - startTime) / 1000000;  //divide by 1000000 to get milliseconds
